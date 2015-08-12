@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		938E56FF1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938E56FE1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m */; };
-		938E57201B7B569E00F8E747 /* FIDynamicViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938E571F1B7B569E00F8E747 /* FIDynamicViewController.framework */; };
+		938E57221B7B5D9000F8E747 /* FIDynamicViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938E57211B7B5D9000F8E747 /* FIDynamicViewController.framework */; };
 		93DB57551B7A0D320044E42C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB57541B7A0D320044E42C /* main.m */; };
 		93DB57581B7A0D320044E42C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB57571B7A0D320044E42C /* AppDelegate.m */; };
 		93DB575B1B7A0D320044E42C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB575A1B7A0D320044E42C /* ViewController.m */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		938E56FD1B7B469700F8E747 /* VerticalLayoutDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalLayoutDynamicViewController.h; sourceTree = "<group>"; };
 		938E56FE1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalLayoutDynamicViewController.m; sourceTree = "<group>"; };
-		938E571F1B7B569E00F8E747 /* FIDynamicViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FIDynamicViewController.framework; path = ../../../../Desktop/FIDynamicViewController.framework; sourceTree = "<group>"; };
+		938E57211B7B5D9000F8E747 /* FIDynamicViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIDynamicViewController.framework; sourceTree = "<group>"; };
 		93DB574F1B7A0D320044E42C /* FIDynamicViewController-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIDynamicViewController-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DB57531B7A0D320044E42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93DB57541B7A0D320044E42C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938E57201B7B569E00F8E747 /* FIDynamicViewController.framework in Frameworks */,
+				938E57221B7B5D9000F8E747 /* FIDynamicViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 		93DB57461B7A0D320044E42C = {
 			isa = PBXGroup;
 			children = (
-				938E571F1B7B569E00F8E747 /* FIDynamicViewController.framework */,
+				938E57211B7B5D9000F8E747 /* FIDynamicViewController.framework */,
 				93DB57511B7A0D320044E42C /* FIDynamicViewController-Example */,
 				93DB576B1B7A0D320044E42C /* FIDynamicViewController-ExampleTests */,
 				93DB57501B7A0D320044E42C /* Products */,

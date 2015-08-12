@@ -10,14 +10,14 @@
 	<string>FIDynamicViewController-Example</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1915C5369DDF2B46FAB2F1053CF61D8D6279B612</key>
+		<key>4C016ABCB0F678D5DC2D079717F73BCC0B068AF8</key>
 		<string>https://github.com/congncif/FIDynamicViewController-Example.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>FIDynamicViewController-Example/FIDynamicViewController-Example.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1915C5369DDF2B46FAB2F1053CF61D8D6279B612</key>
+		<key>4C016ABCB0F678D5DC2D079717F73BCC0B068AF8</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1915C5369DDF2B46FAB2F1053CF61D8D6279B612</string>
+	<string>4C016ABCB0F678D5DC2D079717F73BCC0B068AF8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1915C5369DDF2B46FAB2F1053CF61D8D6279B612</string>
+			<string>4C016ABCB0F678D5DC2D079717F73BCC0B068AF8</string>
 			<key>IDESourceControlWCCName</key>
 			<string>FIDynamicViewController-Example</string>
 		</dict>
