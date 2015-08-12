@@ -26,18 +26,9 @@
     Sub1ViewController *sub1VC = [self.storyboard instantiateViewControllerWithIdentifier:@"Sub1ViewController"];
     sub1VC.view.frame = CGRectMake(0, 0, 0, 300);
     
-//    [self addChildViewController:sub1VC];
-//    [self.view addSubview:sub1VC.view];
-//    
-//    [self refreshViewsLayout];
-    
     Sub2ViewController *sub2VC = [self.storyboard instantiateViewControllerWithIdentifier:@"Sub2ViewController"];
     sub2VC.view.frame = CGRectMake(0, 0, 0, 123);
     
-    //    [self addChildViewController:sub2VC];
-    //    [self.view addSubview:sub2VC.view];
-    //
-    //    [self invalidDyamicLayout];
     //
     [self pushChildViewController:sub1VC animated:NO];
     [self pushChildViewController:sub2VC animated:NO];
@@ -52,16 +43,6 @@
         __weak DynamicPresenter *presenter = (DynamicPresenter *)self.dynamicPresenter;
         presenter.flagTitle = @"Data on main view controller";
     }];
-
-    
 }
-
-
-
-
-
-
-
-
 
 @end
