@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+use_frameworks!
+
+target 'FIDynamicViewController-Example' do
+
+pod 'ActionSheetPicker-3.0', '~> 1.5.1'
+pod 'IQKeyboardManager', '~> 3.2'
+
+end
+
+target 'FIDynamicViewController-ExampleTests' do
+
+end
+

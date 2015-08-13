@@ -11,6 +11,12 @@
 
 #import "Sub1ViewController.h"
 #import "Sub2ViewController.h"
+#import "Sub3ViewController.h"
+#import "SubTableViewController.h"
+
+#import "DropdownSelectionViewController.h"
+#import "RadioSelectionViewController.h"
+#import "CheckboxSelectionViewController.h"
 
 #import "DynamicPresenter.h"
 
@@ -22,27 +28,41 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+
+/**-----------------------------------------------------------------**/
+#pragma mark - Custom UI
+- (void)genreateAndConfigureSubViewControllers{
     // Do any additional setup after loading the view.
-    Sub1ViewController *sub1VC = [self.storyboard instantiateViewControllerWithIdentifier:@"Sub1ViewController"];
-    sub1VC.view.frame = CGRectMake(0, 0, 0, 300);
     
-    Sub2ViewController *sub2VC = [self.storyboard instantiateViewControllerWithIdentifier:@"Sub2ViewController"];
-    sub2VC.view.frame = CGRectMake(0, 0, 0, 123);
+    DropdownSelectionViewController *dropdownVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DropdownSelectionViewController"];
+    [self pushChildViewController:dropdownVC animated:NO];
     
-    //
-    [self pushChildViewController:sub1VC animated:NO];
-    [self pushChildViewController:sub2VC animated:NO];
+    DropdownSelectionViewController *dropdownVC2 = [self.storyboard instantiateViewControllerWithIdentifier:@"DropdownSelectionViewController"];
+    dropdownVC2.allowEnterQuantity = YES;
+    [self pushChildViewController:dropdownVC2 animated:NO];
     
-    [self setDynamicPresenter:[[DynamicPresenter alloc] init]];
+    RadioSelectionViewController *radioVC = [self.storyboard instantiateViewControllerWithIdentifier:@"RadioSelectionViewController"];
+    [self pushChildViewController:radioVC animated:NO];
+    
+    CheckboxSelectionViewController *multipleSelectionsVC = [self.storyboard instantiateViewControllerWithIdentifier:@"CheckboxSelectionViewController"];
+    [self pushChildViewController:multipleSelectionsVC animated:NO];
     
     /**------------------------**
-     Use this method when udpate presenter
+     configure model
      **------------------------**/
+    [self setDynamicPresenter:[[DynamicPresenter alloc] init]];
     [self updatePresenterWithBlock:^{
         
         __weak DynamicPresenter *presenter = (DynamicPresenter *)self.dynamicPresenter;
         presenter.flagTitle = @"Data on main view controller";
     }];
+}
+
+/**-----------------------------------------------------------------**/
+#pragma mark - Custom Action
+- (void)subViewController:(id<FISubViewControllerProtocol>)subViewController sentActionWithInfo:(id)actionInfo{
+    NSLog(@"Action Info: %@ from ViewController: %@", actionInfo, subViewController);
 }
 
 @end

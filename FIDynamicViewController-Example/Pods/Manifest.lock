@@ -1,0 +1,13 @@
+PODS:
+  - ActionSheetPicker-3.0 (1.5.1)
+  - IQKeyboardManager (3.2.4)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 1.5.1)
+  - IQKeyboardManager (~> 3.2)
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: de0f71e30495ed0192f7d16d0fddcab6882a0ca3
+  IQKeyboardManager: 555b1231fefafb21b19278d7cca72986a27b748b
+
+COCOAPODS: 0.38.2

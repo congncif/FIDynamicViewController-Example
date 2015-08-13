@@ -12,6 +12,8 @@
 	<dict>
 		<key>4C016ABCB0F678D5DC2D079717F73BCC0B068AF8</key>
 		<string>https://github.com/congncif/FIDynamicViewController-Example.git</string>
+		<key>B8BF065ACCEBFEB65AD05A15478AE3810B6FF361</key>
+		<string>ssh://bitbucket.org/congncif/fibaseframework.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>FIDynamicViewController-Example/FIDynamicViewController-Example.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>4C016ABCB0F678D5DC2D079717F73BCC0B068AF8</key>
 		<string>../../..</string>
+		<key>B8BF065ACCEBFEB65AD05A15478AE3810B6FF361</key>
+		<string>../../../../fibaseframework</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/congncif/FIDynamicViewController-Example.git</string>
@@ -28,6 +32,14 @@
 	<string>4C016ABCB0F678D5DC2D079717F73BCC0B068AF8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B8BF065ACCEBFEB65AD05A15478AE3810B6FF361</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fibaseframework</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

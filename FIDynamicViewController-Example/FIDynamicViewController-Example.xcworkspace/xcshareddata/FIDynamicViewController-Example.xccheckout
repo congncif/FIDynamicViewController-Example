@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>209C878E-95D1-4EBE-B41E-4472FA0331E9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FIDynamicViewController-Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C016ABCB0F678D5DC2D079717F73BCC0B068AF8</key>
+		<string>https://github.com/congncif/FIDynamicViewController-Example.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FIDynamicViewController-Example/FIDynamicViewController-Example.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C016ABCB0F678D5DC2D079717F73BCC0B068AF8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/congncif/FIDynamicViewController-Example.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C016ABCB0F678D5DC2D079717F73BCC0B068AF8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C016ABCB0F678D5DC2D079717F73BCC0B068AF8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FIDynamicViewController-Example</string>
+		</dict>
+	</array>
+</dict>
+</plist>

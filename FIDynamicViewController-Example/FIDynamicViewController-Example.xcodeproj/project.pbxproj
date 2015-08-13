@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		938E56FF1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938E56FE1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m */; };
-		938E57221B7B5D9000F8E747 /* FIDynamicViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938E57211B7B5D9000F8E747 /* FIDynamicViewController.framework */; };
+		93AFB13D1B7C39BD00EFE6B5 /* SubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB13C1B7C39BD00EFE6B5 /* SubTableViewController.m */; };
+		93AFB1401B7C3A3D00EFE6B5 /* SubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB13F1B7C3A3D00EFE6B5 /* SubTableViewCell.m */; };
+		93AFB1431B7C3DA100EFE6B5 /* Sub4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB1421B7C3DA100EFE6B5 /* Sub4ViewController.m */; };
+		93AFB1891B7C714900EFE6B5 /* FIDynamicViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFB1881B7C714900EFE6B5 /* FIDynamicViewController.framework */; };
+		93AFB1911B7C72AD00EFE6B5 /* DropdownSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB1901B7C72AD00EFE6B5 /* DropdownSelectionViewController.m */; };
+		93AFB1951B7C732D00EFE6B5 /* FIBorderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB1941B7C732D00EFE6B5 /* FIBorderTextField.m */; };
+		93AFB1971B7C747200EFE6B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AFB1961B7C747200EFE6B5 /* Images.xcassets */; };
+		93AFB19B1B7C7B3600EFE6B5 /* RadioSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB19A1B7C7B3600EFE6B5 /* RadioSelectionViewController.m */; };
+		93AFB19E1B7C7D0A00EFE6B5 /* RadioSelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB19D1B7C7D0A00EFE6B5 /* RadioSelectionTableViewCell.m */; };
+		93AFB1A11B7C805B00EFE6B5 /* CheckboxSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB1A01B7C805B00EFE6B5 /* CheckboxSelectionViewController.m */; };
+		93AFB1A41B7C807000EFE6B5 /* CheckboxSelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB1A31B7C807000EFE6B5 /* CheckboxSelectionTableViewCell.m */; };
 		93DB57551B7A0D320044E42C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB57541B7A0D320044E42C /* main.m */; };
 		93DB57581B7A0D320044E42C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB57571B7A0D320044E42C /* AppDelegate.m */; };
 		93DB575B1B7A0D320044E42C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB575A1B7A0D320044E42C /* ViewController.m */; };
 		93DB575E1B7A0D320044E42C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DB575C1B7A0D320044E42C /* Main.storyboard */; };
-		93DB57601B7A0D320044E42C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DB575F1B7A0D320044E42C /* Images.xcassets */; };
 		93DB57631B7A0D320044E42C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DB57611B7A0D320044E42C /* LaunchScreen.xib */; };
 		93DB576F1B7A0D320044E42C /* FIDynamicViewController_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB576E1B7A0D320044E42C /* FIDynamicViewController_ExampleTests.m */; };
 		93DB577C1B7A0E990044E42C /* Sub1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB577B1B7A0E990044E42C /* Sub1ViewController.m */; };
@@ -21,6 +30,7 @@
 		93DB57821B7A0FF10044E42C /* Sub2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB57811B7A0FF10044E42C /* Sub2ViewController.m */; };
 		93DB57851B7A100A0044E42C /* Sub3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB57841B7A100A0044E42C /* Sub3ViewController.m */; };
 		93DB57881B7A103B0044E42C /* DynamicPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB57871B7A103B0044E42C /* DynamicPresenter.m */; };
+		C9C4B7E4A448423F36600D7A /* Pods_FIDynamicViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D523C295340CF7079F2A8BA /* Pods_FIDynamicViewController_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D523C295340CF7079F2A8BA /* Pods_FIDynamicViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIDynamicViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		591B38A39C12C8AAE6AFFDF2 /* Pods-FIDynamicViewController-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIDynamicViewController-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIDynamicViewController-Example/Pods-FIDynamicViewController-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		938E56FD1B7B469700F8E747 /* VerticalLayoutDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalLayoutDynamicViewController.h; sourceTree = "<group>"; };
 		938E56FE1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalLayoutDynamicViewController.m; sourceTree = "<group>"; };
-		938E57211B7B5D9000F8E747 /* FIDynamicViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIDynamicViewController.framework; sourceTree = "<group>"; };
+		93AFB13B1B7C39BD00EFE6B5 /* SubTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTableViewController.h; sourceTree = "<group>"; };
+		93AFB13C1B7C39BD00EFE6B5 /* SubTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTableViewController.m; sourceTree = "<group>"; };
+		93AFB13E1B7C3A3D00EFE6B5 /* SubTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTableViewCell.h; sourceTree = "<group>"; };
+		93AFB13F1B7C3A3D00EFE6B5 /* SubTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTableViewCell.m; sourceTree = "<group>"; };
+		93AFB1411B7C3DA100EFE6B5 /* Sub4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sub4ViewController.h; sourceTree = "<group>"; };
+		93AFB1421B7C3DA100EFE6B5 /* Sub4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sub4ViewController.m; sourceTree = "<group>"; };
+		93AFB1881B7C714900EFE6B5 /* FIDynamicViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIDynamicViewController.framework; sourceTree = "<group>"; };
+		93AFB18F1B7C72AD00EFE6B5 /* DropdownSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownSelectionViewController.h; sourceTree = "<group>"; };
+		93AFB1901B7C72AD00EFE6B5 /* DropdownSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownSelectionViewController.m; sourceTree = "<group>"; };
+		93AFB1931B7C732D00EFE6B5 /* FIBorderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIBorderTextField.h; sourceTree = "<group>"; };
+		93AFB1941B7C732D00EFE6B5 /* FIBorderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIBorderTextField.m; sourceTree = "<group>"; };
+		93AFB1961B7C747200EFE6B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93AFB1991B7C7B3600EFE6B5 /* RadioSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioSelectionViewController.h; sourceTree = "<group>"; };
+		93AFB19A1B7C7B3600EFE6B5 /* RadioSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioSelectionViewController.m; sourceTree = "<group>"; };
+		93AFB19C1B7C7D0A00EFE6B5 /* RadioSelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioSelectionTableViewCell.h; sourceTree = "<group>"; };
+		93AFB19D1B7C7D0A00EFE6B5 /* RadioSelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioSelectionTableViewCell.m; sourceTree = "<group>"; };
+		93AFB19F1B7C805B00EFE6B5 /* CheckboxSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckboxSelectionViewController.h; sourceTree = "<group>"; };
+		93AFB1A01B7C805B00EFE6B5 /* CheckboxSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckboxSelectionViewController.m; sourceTree = "<group>"; };
+		93AFB1A21B7C807000EFE6B5 /* CheckboxSelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckboxSelectionTableViewCell.h; sourceTree = "<group>"; };
+		93AFB1A31B7C807000EFE6B5 /* CheckboxSelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckboxSelectionTableViewCell.m; sourceTree = "<group>"; };
 		93DB574F1B7A0D320044E42C /* FIDynamicViewController-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIDynamicViewController-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DB57531B7A0D320044E42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93DB57541B7A0D320044E42C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,7 +76,6 @@
 		93DB57591B7A0D320044E42C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		93DB575A1B7A0D320044E42C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		93DB575D1B7A0D320044E42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		93DB575F1B7A0D320044E42C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		93DB57621B7A0D320044E42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		93DB57681B7A0D320044E42C /* FIDynamicViewController-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FIDynamicViewController-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DB576D1B7A0D320044E42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +90,7 @@
 		93DB57841B7A100A0044E42C /* Sub3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sub3ViewController.m; sourceTree = "<group>"; };
 		93DB57861B7A103B0044E42C /* DynamicPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicPresenter.h; sourceTree = "<group>"; };
 		93DB57871B7A103B0044E42C /* DynamicPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicPresenter.m; sourceTree = "<group>"; };
+		B4240927583D9CE648682210 /* Pods-FIDynamicViewController-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIDynamicViewController-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIDynamicViewController-Example/Pods-FIDynamicViewController-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938E57221B7B5D9000F8E747 /* FIDynamicViewController.framework in Frameworks */,
+				93AFB1891B7C714900EFE6B5 /* FIDynamicViewController.framework in Frameworks */,
+				C9C4B7E4A448423F36600D7A /* Pods_FIDynamicViewController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,22 +113,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29AF44B65EDD596F353A0DBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				591B38A39C12C8AAE6AFFDF2 /* Pods-FIDynamicViewController-Example.debug.xcconfig */,
+				B4240927583D9CE648682210 /* Pods-FIDynamicViewController-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		938E56FC1B7B466700F8E747 /* VerticalLayoutDynamicViewController */ = {
 			isa = PBXGroup;
 			children = (
 				938E56FD1B7B469700F8E747 /* VerticalLayoutDynamicViewController.h */,
 				938E56FE1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m */,
+				93AFB1961B7C747200EFE6B5 /* Images.xcassets */,
 			);
 			name = VerticalLayoutDynamicViewController;
+			sourceTree = "<group>";
+		};
+		93AFB1871B7C713D00EFE6B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93AFB1881B7C714900EFE6B5 /* FIDynamicViewController.framework */,
+				4D523C295340CF7079F2A8BA /* Pods_FIDynamicViewController_Example.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		93AFB18E1B7C72A200EFE6B5 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				93AFB18F1B7C72AD00EFE6B5 /* DropdownSelectionViewController.h */,
+				93AFB1901B7C72AD00EFE6B5 /* DropdownSelectionViewController.m */,
+				93AFB1991B7C7B3600EFE6B5 /* RadioSelectionViewController.h */,
+				93AFB19A1B7C7B3600EFE6B5 /* RadioSelectionViewController.m */,
+				93AFB19C1B7C7D0A00EFE6B5 /* RadioSelectionTableViewCell.h */,
+				93AFB19D1B7C7D0A00EFE6B5 /* RadioSelectionTableViewCell.m */,
+				93AFB19F1B7C805B00EFE6B5 /* CheckboxSelectionViewController.h */,
+				93AFB1A01B7C805B00EFE6B5 /* CheckboxSelectionViewController.m */,
+				93AFB1A21B7C807000EFE6B5 /* CheckboxSelectionTableViewCell.h */,
+				93AFB1A31B7C807000EFE6B5 /* CheckboxSelectionTableViewCell.m */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		93AFB1921B7C732600EFE6B5 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				93AFB1931B7C732D00EFE6B5 /* FIBorderTextField.h */,
+				93AFB1941B7C732D00EFE6B5 /* FIBorderTextField.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		93AFB1981B7C7B0200EFE6B5 /* SimpleExample */ = {
+			isa = PBXGroup;
+			children = (
+				93DB57861B7A103B0044E42C /* DynamicPresenter.h */,
+				93DB57871B7A103B0044E42C /* DynamicPresenter.m */,
+				93DB577D1B7A0F890044E42C /* DynamicViewController.h */,
+				93DB577E1B7A0F890044E42C /* DynamicViewController.m */,
+				93DB577A1B7A0E990044E42C /* Sub1ViewController.h */,
+				93DB577B1B7A0E990044E42C /* Sub1ViewController.m */,
+				93DB57801B7A0FF10044E42C /* Sub2ViewController.h */,
+				93DB57811B7A0FF10044E42C /* Sub2ViewController.m */,
+				93DB57831B7A100A0044E42C /* Sub3ViewController.h */,
+				93DB57841B7A100A0044E42C /* Sub3ViewController.m */,
+				93AFB13B1B7C39BD00EFE6B5 /* SubTableViewController.h */,
+				93AFB13C1B7C39BD00EFE6B5 /* SubTableViewController.m */,
+				93AFB13E1B7C3A3D00EFE6B5 /* SubTableViewCell.h */,
+				93AFB13F1B7C3A3D00EFE6B5 /* SubTableViewCell.m */,
+				93AFB1411B7C3DA100EFE6B5 /* Sub4ViewController.h */,
+				93AFB1421B7C3DA100EFE6B5 /* Sub4ViewController.m */,
+			);
+			name = SimpleExample;
 			sourceTree = "<group>";
 		};
 		93DB57461B7A0D320044E42C = {
 			isa = PBXGroup;
 			children = (
-				938E57211B7B5D9000F8E747 /* FIDynamicViewController.framework */,
 				93DB57511B7A0D320044E42C /* FIDynamicViewController-Example */,
+				93AFB1921B7C732600EFE6B5 /* Custom */,
+				93AFB18E1B7C72A200EFE6B5 /* Selection */,
 				93DB576B1B7A0D320044E42C /* FIDynamicViewController-ExampleTests */,
 				93DB57501B7A0D320044E42C /* Products */,
+				93AFB1871B7C713D00EFE6B5 /* Frameworks */,
+				29AF44B65EDD596F353A0DBF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,19 +219,9 @@
 				93DB57571B7A0D320044E42C /* AppDelegate.m */,
 				93DB57591B7A0D320044E42C /* ViewController.h */,
 				93DB575A1B7A0D320044E42C /* ViewController.m */,
-				93DB57861B7A103B0044E42C /* DynamicPresenter.h */,
-				93DB57871B7A103B0044E42C /* DynamicPresenter.m */,
-				93DB577D1B7A0F890044E42C /* DynamicViewController.h */,
-				93DB577E1B7A0F890044E42C /* DynamicViewController.m */,
-				93DB577A1B7A0E990044E42C /* Sub1ViewController.h */,
-				93DB577B1B7A0E990044E42C /* Sub1ViewController.m */,
-				93DB57801B7A0FF10044E42C /* Sub2ViewController.h */,
-				93DB57811B7A0FF10044E42C /* Sub2ViewController.m */,
-				93DB57831B7A100A0044E42C /* Sub3ViewController.h */,
-				93DB57841B7A100A0044E42C /* Sub3ViewController.m */,
+				93AFB1981B7C7B0200EFE6B5 /* SimpleExample */,
 				938E56FC1B7B466700F8E747 /* VerticalLayoutDynamicViewController */,
 				93DB575C1B7A0D320044E42C /* Main.storyboard */,
-				93DB575F1B7A0D320044E42C /* Images.xcassets */,
 				93DB57611B7A0D320044E42C /* LaunchScreen.xib */,
 				93DB57521B7A0D320044E42C /* Supporting Files */,
 			);
@@ -168,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93DB57721B7A0D320044E42C /* Build configuration list for PBXNativeTarget "FIDynamicViewController-Example" */;
 			buildPhases = (
+				E25D6C628A39B92D12C85B5D /* Check Pods Manifest.lock */,
 				93DB574B1B7A0D320044E42C /* Sources */,
 				93DB574C1B7A0D320044E42C /* Frameworks */,
 				93DB574D1B7A0D320044E42C /* Resources */,
+				7C82D5442EB8443A4E86E51D /* Embed Pods Frameworks */,
+				462536ADEC7FF14F18BD34A1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,9 +337,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93AFB1971B7C747200EFE6B5 /* Images.xcassets in Resources */,
 				93DB575E1B7A0D320044E42C /* Main.storyboard in Resources */,
 				93DB57631B7A0D320044E42C /* LaunchScreen.xib in Resources */,
-				93DB57601B7A0D320044E42C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,17 +352,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		462536ADEC7FF14F18BD34A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIDynamicViewController-Example/Pods-FIDynamicViewController-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C82D5442EB8443A4E86E51D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIDynamicViewController-Example/Pods-FIDynamicViewController-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25D6C628A39B92D12C85B5D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93DB574B1B7A0D320044E42C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93AFB1A41B7C807000EFE6B5 /* CheckboxSelectionTableViewCell.m in Sources */,
+				93AFB1A11B7C805B00EFE6B5 /* CheckboxSelectionViewController.m in Sources */,
+				93AFB19E1B7C7D0A00EFE6B5 /* RadioSelectionTableViewCell.m in Sources */,
 				93DB57821B7A0FF10044E42C /* Sub2ViewController.m in Sources */,
 				93DB577F1B7A0F890044E42C /* DynamicViewController.m in Sources */,
+				93AFB1951B7C732D00EFE6B5 /* FIBorderTextField.m in Sources */,
 				93DB57881B7A103B0044E42C /* DynamicPresenter.m in Sources */,
 				938E56FF1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m in Sources */,
+				93AFB13D1B7C39BD00EFE6B5 /* SubTableViewController.m in Sources */,
+				93AFB19B1B7C7B3600EFE6B5 /* RadioSelectionViewController.m in Sources */,
+				93AFB1401B7C3A3D00EFE6B5 /* SubTableViewCell.m in Sources */,
 				93DB575B1B7A0D320044E42C /* ViewController.m in Sources */,
 				93DB577C1B7A0E990044E42C /* Sub1ViewController.m in Sources */,
+				93AFB1431B7C3DA100EFE6B5 /* Sub4ViewController.m in Sources */,
+				93AFB1911B7C72AD00EFE6B5 /* DropdownSelectionViewController.m in Sources */,
 				93DB57581B7A0D320044E42C /* AppDelegate.m in Sources */,
 				93DB57551B7A0D320044E42C /* main.m in Sources */,
 				93DB57851B7A100A0044E42C /* Sub3ViewController.m in Sources */,
@@ -395,12 +548,14 @@
 		};
 		93DB57731B7A0D320044E42C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591B38A39C12C8AAE6AFFDF2 /* Pods-FIDynamicViewController-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"/Users/congnc-macpro/Desktop",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "FIDynamicViewController-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -410,12 +565,14 @@
 		};
 		93DB57741B7A0D320044E42C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4240927583D9CE648682210 /* Pods-FIDynamicViewController-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"/Users/congnc-macpro/Desktop",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "FIDynamicViewController-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

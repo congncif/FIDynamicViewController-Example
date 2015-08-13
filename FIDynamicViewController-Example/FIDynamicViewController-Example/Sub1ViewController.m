@@ -28,7 +28,7 @@
     }];
     
     [UIView animateWithDuration:0.25 animations:^{
-        CGRect frame =    self.view.frame;
+        CGRect frame = self.view.frame;
         frame.size.height = arc4random()%140+300;
         self.view.frame = frame;
         [self needUpdateLayoutAnimated:YES];
