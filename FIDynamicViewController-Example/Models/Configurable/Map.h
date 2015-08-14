@@ -15,5 +15,6 @@
 @interface Map : JSONModel
 
 @property (nonatomic, strong) NSString* Size;
+@property (nonatomic, strong) NSString* Color;
 
 @end

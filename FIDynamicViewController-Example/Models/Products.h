@@ -11,6 +11,8 @@
 #import "GroupedItems.h"
 #import "TierPrices.h"
 #import "Options.h"
+#import "AssociatedAttributes.h"
+#import "AssociatedProducts.h"
 
 @protocol Products
 @end
@@ -34,12 +36,12 @@
 @property (nonatomic, strong) NSNumber* stocklevel;
 @property (nonatomic, strong) NSNumber* version;
 @property (nonatomic, strong) NSString* type;
-@property (nonatomic, strong) NSString* associatedAttributes;
 @property (nonatomic, strong) NSNumber* minimalPrice;
 @property (nonatomic, strong) NSArray<GroupedItems> * groupedItems;
 @property (nonatomic, strong) NSString* special_from_date;
 @property (nonatomic, strong) NSString* special_to_date;
-@property (nonatomic, strong) NSString* associatedProducts;
+@property (nonatomic, strong) NSArray<AssociatedAttributes> * associatedAttributes;
+@property (nonatomic, strong) NSArray<AssociatedProducts> * associatedProducts;
 @property (nonatomic, strong) NSNumber* toPrice;
 @property (nonatomic, strong) NSNumber* price;
 @property (nonatomic, strong) NSString* priceType;
