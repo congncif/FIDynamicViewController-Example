@@ -10,6 +10,6 @@
 
 @interface DropdownSelectionViewController : FIBaseSubViewController
 
-@property (nonatomic) BOOL allowEnterQuantity;
+@property (nonatomic, strong) id identifier;
 
 @end

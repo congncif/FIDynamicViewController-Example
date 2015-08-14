@@ -34,6 +34,7 @@
 		930407D71B7DCDD100131D62 /* TextFieldInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407D61B7DCDD100131D62 /* TextFieldInputViewController.m */; };
 		930407DA1B7DCF2000131D62 /* DateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407D91B7DCF2000131D62 /* DateSelectionViewController.m */; };
 		930407DD1B7DCF2E00131D62 /* DateTimeSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407DC1B7DCF2E00131D62 /* DateTimeSelectionViewController.m */; };
+		930407E01B7DEEE000131D62 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407DF1B7DEEE000131D62 /* DateUtils.m */; };
 		938E56FF1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938E56FE1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m */; };
 		93AFB13D1B7C39BD00EFE6B5 /* SubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB13C1B7C39BD00EFE6B5 /* SubTableViewController.m */; };
 		93AFB1401B7C3A3D00EFE6B5 /* SubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB13F1B7C3A3D00EFE6B5 /* SubTableViewCell.m */; };
@@ -122,6 +123,8 @@
 		930407D91B7DCF2000131D62 /* DateSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateSelectionViewController.m; sourceTree = "<group>"; };
 		930407DB1B7DCF2E00131D62 /* DateTimeSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeSelectionViewController.h; sourceTree = "<group>"; };
 		930407DC1B7DCF2E00131D62 /* DateTimeSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTimeSelectionViewController.m; sourceTree = "<group>"; };
+		930407DE1B7DEEDF00131D62 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
+		930407DF1B7DEEE000131D62 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
 		938E56FD1B7B469700F8E747 /* VerticalLayoutDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalLayoutDynamicViewController.h; sourceTree = "<group>"; };
 		938E56FE1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalLayoutDynamicViewController.m; sourceTree = "<group>"; };
 		93AFB13B1B7C39BD00EFE6B5 /* SubTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTableViewController.h; sourceTree = "<group>"; };
@@ -387,6 +390,8 @@
 				93DB575C1B7A0D320044E42C /* Main.storyboard */,
 				93DB57611B7A0D320044E42C /* LaunchScreen.xib */,
 				93DB57521B7A0D320044E42C /* Supporting Files */,
+				930407DE1B7DEEDF00131D62 /* DateUtils.h */,
+				930407DF1B7DEEE000131D62 /* DateUtils.m */,
 			);
 			path = "FIDynamicViewController-Example";
 			sourceTree = "<group>";
@@ -597,6 +602,7 @@
 				93AFB19B1B7C7B3600EFE6B5 /* RadioSelectionViewController.m in Sources */,
 				930407A61B7DA62B00131D62 /* AssociatedAttributes.m in Sources */,
 				930407D41B7DCC2700131D62 /* TextAreaInputViewController.m in Sources */,
+				930407E01B7DEEE000131D62 /* DateUtils.m in Sources */,
 				93AFB1401B7C3A3D00EFE6B5 /* SubTableViewCell.m in Sources */,
 				93DB575B1B7A0D320044E42C /* ViewController.m in Sources */,
 				93DB577C1B7A0E990044E42C /* Sub1ViewController.m in Sources */,

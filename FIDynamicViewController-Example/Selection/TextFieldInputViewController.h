@@ -10,4 +10,6 @@
 
 @interface TextFieldInputViewController : FIBaseSubViewController
 
+@property (nonatomic, strong) id identifier;
+
 @end

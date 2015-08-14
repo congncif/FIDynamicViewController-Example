@@ -10,4 +10,6 @@
 
 @interface CheckboxSelectionViewController : FIBaseSubViewController
 
+@property (nonatomic, strong) id identifier;
+
 @end

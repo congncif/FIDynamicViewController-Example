@@ -474,7 +474,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gmz-t3-pnk">
                                 <rect key="frame" x="16" y="40" width="288" height="96"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -496,6 +495,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="150"/>
                     <connections>
+                        <outlet property="lbTitle" destination="LbG-eT-m8B" id="zHh-J5-EcC"/>
                         <outlet property="tvContent" destination="Gmz-t3-pnk" id="4NK-hV-DYu"/>
                     </connections>
                 </viewController>
@@ -715,6 +715,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="100"/>
                     <connections>
+                        <outlet property="lbTitle" destination="OEH-6M-JZ5" id="6Hx-2E-BES"/>
                         <outlet property="lcQuantityViewWidth" destination="uzX-Jj-vCg" id="rcN-67-g1w"/>
                         <outlet property="txtProduct" destination="X8c-NT-WAf" id="Q21-IL-fkF"/>
                         <outlet property="txtQuantity" destination="TZU-bw-nQR" id="kty-Ro-bat"/>
@@ -851,6 +852,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="300"/>
                     <connections>
+                        <outlet property="lbTitle" destination="WVv-Xi-VLB" id="ti9-tO-kj9"/>
                         <outlet property="tableView" destination="148-iX-ThM" id="9E8-qF-jf2"/>
                     </connections>
                 </viewController>
@@ -1178,6 +1180,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="300"/>
                     <connections>
+                        <outlet property="lbTitle" destination="K2R-Ac-vVi" id="f7C-L5-M3f"/>
                         <outlet property="tableView" destination="ENU-2j-FF4" id="aDv-P5-Dey"/>
                     </connections>
                 </viewController>
@@ -1244,6 +1247,10 @@
                     <nil key="simulatedStatusBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="100"/>
+                    <connections>
+                        <outlet property="lbTitle" destination="k62-IH-8no" id="7fH-hh-I8k"/>
+                        <outlet property="txtField" destination="B7q-tA-bCb" id="5OG-j7-Jq9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nGT-q6-lnd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1306,6 +1313,10 @@
                     <nil key="simulatedStatusBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="100"/>
+                    <connections>
+                        <outlet property="lbTitle" destination="Tuk-rw-f7N" id="7Uv-Dr-SCs"/>
+                        <outlet property="txtField" destination="Fdi-hz-1mO" id="CDh-pM-g2g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wxn-8r-3rO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1403,6 +1414,11 @@
                     <nil key="simulatedStatusBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="100"/>
+                    <connections>
+                        <outlet property="lbTitle" destination="Aci-GH-5Ez" id="fcd-Bl-Ncb"/>
+                        <outlet property="txtDate" destination="De8-dX-mLf" id="bi3-uo-3f5"/>
+                        <outlet property="txtTime" destination="vdH-Kb-99M" id="m9v-U1-baI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RYf-eq-Gkm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

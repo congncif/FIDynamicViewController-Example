@@ -53,10 +53,6 @@
     DropdownSelectionViewController *dropdownVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DropdownSelectionViewController"];
     [self pushSubViewController:dropdownVC animated:NO];
     
-    DropdownSelectionViewController *dropdownVC2 = [self.storyboard instantiateViewControllerWithIdentifier:@"DropdownSelectionViewController"];
-    dropdownVC2.allowEnterQuantity = YES;
-    [self pushSubViewController:dropdownVC2 animated:NO];
-    
     RadioSelectionViewController *radioVC = [self.storyboard instantiateViewControllerWithIdentifier:@"RadioSelectionViewController"];
     [self pushSubViewController:radioVC animated:NO];
     

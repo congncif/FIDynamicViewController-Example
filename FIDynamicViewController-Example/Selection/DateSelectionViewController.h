@@ -10,4 +10,6 @@
 
 @interface DateSelectionViewController : FIBaseSubViewController
 
+@property (nonatomic, strong) id identifier;
+
 @end

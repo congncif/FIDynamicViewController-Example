@@ -9,11 +9,14 @@
 #import "CheckboxSelectionViewController.h"
 
 #import "CheckboxSelectionTableViewCell.h"
+#import "Options.h"
 
 @interface CheckboxSelectionViewController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
+@property (nonatomic, weak) IBOutlet UILabel *lbTitle;
 
+@property (nonatomic, strong) NSArray *listSelections;
 @end
 
 @implementation CheckboxSelectionViewController
@@ -22,11 +25,23 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.tableView.rowHeight = UITableViewAutomaticDimension;
+    [self loadData];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)loadData{
+    if ([self.identifier isKindOfClass:[Options class]]){
+        Options *option = (Options *)self.identifier;
+        self.lbTitle.text = option.title;
+        
+        self.listSelections = [option.selections valueForKeyPath:@"name"];
+        
+        [self.tableView reloadData];
+    }
 }
 
 /**-----------------------------------------------------------------**/
@@ -43,12 +58,12 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 10;
+    return self.listSelections.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     CheckboxSelectionTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CheckboxSelectionTableViewCell" forIndexPath:indexPath];
-    cell.labelCheckbox.text = [NSString stringWithFormat:@"Checkbox multiple selections %d", (int)indexPath.row];;
+    cell.labelCheckbox.text = self.listSelections[indexPath.row];
     return cell;
 }
 

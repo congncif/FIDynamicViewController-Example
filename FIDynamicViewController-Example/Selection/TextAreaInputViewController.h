@@ -10,4 +10,6 @@
 
 @interface TextAreaInputViewController : FIBaseSubViewController
 
+@property (nonatomic, strong) id identifier;
+
 @end

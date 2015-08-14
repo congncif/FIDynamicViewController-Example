@@ -9,10 +9,14 @@
 #import "RadioSelectionViewController.h"
 
 #import "RadioSelectionTableViewCell.h"
+#import "Options.h"
 
 @interface RadioSelectionViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
+@property (nonatomic, weak) IBOutlet UILabel *lbTitle;
+
+@property (nonatomic, strong) NSArray *listSelections;
 
 @end
 
@@ -23,12 +27,25 @@
     // Do any additional setup after loading the view.
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     
+    [self loadData];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)loadData{
+    if ([self.identifier isKindOfClass:[Options class]]){
+        Options *option = (Options *)self.identifier;
+        self.lbTitle.text = option.title;
+        
+        self.listSelections = [option.selections valueForKeyPath:@"name"];
+        
+        [self.tableView reloadData];
+    }
+}
+
 
 /**-----------------------------------------------------------------**/
 #pragma mark - 
@@ -44,12 +61,12 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 10;
+    return self.listSelections.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     RadioSelectionTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"RadioSelectionTableViewCell" forIndexPath:indexPath];
-    cell.labelRadio.text = [NSString stringWithFormat:@"Radio %d", (int)indexPath.row];;
+    cell.labelRadio.text = self.listSelections[indexPath.row];
     return cell;
 }
 

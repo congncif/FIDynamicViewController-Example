@@ -64,39 +64,48 @@
     
     if ([option.inputType isEqualToString:@"area"]) {
         TextAreaInputViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"TextAreaInputViewController"];
+        vc.identifier = option;
         return vc;
     }
     else if ([option.inputType isEqualToString:@"field"]){
         TextFieldInputViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"TextFieldInputViewController"];
+        vc.identifier = option;
         return vc;
     }
     else if ([option.inputType isEqualToString:@"date"]){
         DateSelectionViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"DateSelectionViewController"];
+        vc.identifier = option;
         return vc;
     }
     else if ([option.inputType isEqualToString:@"time"]){
         DateSelectionViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"DateSelectionViewController"];
+        vc.identifier = option;
         return vc;
     }
     else if ([option.inputType isEqualToString:@"date_time"]){
         DateTimeSelectionViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"DateTimeSelectionViewController"];
+        vc.identifier = option;
         return vc;
     }
     else if ([option.inputType isEqualToString:@"drop_down"]){
         DropdownSelectionViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"DropdownSelectionViewController"];
+        vc.identifier = option;
         return vc;
     }
     else if ([option.inputType isEqualToString:@"radio"]){
         RadioSelectionViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"RadioSelectionViewController"];
+        vc.identifier = option;
         return vc;
     }
     else if ([option.inputType isEqualToString:@"checkbox"]){
         CheckboxSelectionViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"CheckboxSelectionViewController"];
+        vc.identifier = option;
         return vc;
     }
     else if ([option.inputType isEqualToString:@"multiple"]){
-        //???
+
         CheckboxSelectionViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"CheckboxSelectionViewController"];
+        vc.identifier = option;
         return vc;
     }
     

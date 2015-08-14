@@ -11,15 +11,19 @@
 #import "FIBorderTextField.h"
 
 #import "ActionSheetPicker.h"
+#import "Options.h"
 
 static CGFloat WIDTH_QUANTITY_VIEW = 60.0f;
 
 @interface DropdownSelectionViewController ()
 
+@property (nonatomic, weak) IBOutlet UILabel *lbTitle;
 @property (nonatomic, weak) IBOutlet FIBorderTextField *txtProduct;
 @property (nonatomic, weak) IBOutlet FIBorderTextField *txtQuantity;
 
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint *lcQuantityViewWidth;
+
+@property (nonatomic) BOOL allowEnterQuantity;
 
 @end
 
@@ -29,25 +33,33 @@ static CGFloat WIDTH_QUANTITY_VIEW = 60.0f;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.txtProduct.action = ^(FIBorderTextField *field){
-        NSArray *colors = [NSArray arrayWithObjects:@"Option 1", @"Option 2", @"Option 3", @"Option 4", nil];
-        
-        [ActionSheetStringPicker showPickerWithTitle:@"Choose an option"
-                                                rows:colors
-                                    initialSelection:0
-                                           doneBlock:^(ActionSheetStringPicker *picker, NSInteger selectedIndex, id selectedValue) {
-                                               NSLog(@"Picker: %@", picker);
-                                               NSLog(@"Selected Index: %d", (int)selectedIndex);
-                                               NSLog(@"Selected Value: %@", selectedValue);
-                                               field.text = selectedValue;
-                                           }
-                                         cancelBlock:^(ActionSheetStringPicker *picker) {
-                                             NSLog(@"Block Picker Canceled");
-                                         }
-                                              origin:field];
-    };
+    [self loadData];
     
-    [self refreshViews];
+}
+
+- (void)loadData{
+    if ([self.identifier isKindOfClass:[Options class]]){
+        Options *option = (Options *)self.identifier;
+        self.lbTitle.text = option.title;
+        self.txtProduct.action = ^(FIBorderTextField *field){
+            NSArray *rows = [option.selections valueForKeyPath:@"name"];
+            [ActionSheetStringPicker showPickerWithTitle:@"Choose an option"
+                                                    rows:rows
+                                        initialSelection:0
+                                               doneBlock:^(ActionSheetStringPicker *picker, NSInteger selectedIndex, id selectedValue) {
+                                                   NSLog(@"Picker: %@", picker);
+                                                   NSLog(@"Selected Index: %d", (int)selectedIndex);
+                                                   NSLog(@"Selected Value: %@", selectedValue);
+                                                   field.text = selectedValue;
+                                               }
+                                             cancelBlock:^(ActionSheetStringPicker *picker) {
+                                                 NSLog(@"Block Picker Canceled");
+                                             }
+                                                  origin:field];
+        };
+        
+        [self refreshViews];
+    }
 }
 
 - (void)refreshViews{
