@@ -1,13 +1,16 @@
 PODS:
   - ActionSheetPicker-3.0 (1.5.1)
   - IQKeyboardManager (3.2.4)
+  - JSONModel (1.1.0)
 
 DEPENDENCIES:
   - ActionSheetPicker-3.0 (~> 1.5.1)
   - IQKeyboardManager (~> 3.2)
+  - JSONModel (~> 1.1)
 
 SPEC CHECKSUMS:
   ActionSheetPicker-3.0: de0f71e30495ed0192f7d16d0fddcab6882a0ca3
   IQKeyboardManager: 555b1231fefafb21b19278d7cca72986a27b748b
+  JSONModel: ec77e9865236a7a09d9cf7668df6b4b328d9ec1d
 
 COCOAPODS: 0.38.2

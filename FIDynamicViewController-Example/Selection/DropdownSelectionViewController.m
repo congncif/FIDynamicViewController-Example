@@ -30,9 +30,9 @@ static CGFloat WIDTH_QUANTITY_VIEW = 60.0f;
     // Do any additional setup after loading the view.
     
     self.txtProduct.action = ^(FIBorderTextField *field){
-        NSArray *colors = [NSArray arrayWithObjects:@"Camera 1", @"Camera 2", @"Camera 3", @"Camera 4", nil];
+        NSArray *colors = [NSArray arrayWithObjects:@"Option 1", @"Option 2", @"Option 3", @"Option 4", nil];
         
-        [ActionSheetStringPicker showPickerWithTitle:@"Select camera"
+        [ActionSheetStringPicker showPickerWithTitle:@"Choose an option"
                                                 rows:colors
                                     initialSelection:0
                                            doneBlock:^(ActionSheetStringPicker *picker, NSInteger selectedIndex, id selectedValue) {

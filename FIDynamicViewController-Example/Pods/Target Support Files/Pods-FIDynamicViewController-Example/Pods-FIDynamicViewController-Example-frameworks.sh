@@ -54,8 +54,10 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-FIDynamicViewController-Example/ActionSheetPicker_3_0.framework'
   install_framework 'Pods-FIDynamicViewController-Example/IQKeyboardManager.framework'
+  install_framework 'Pods-FIDynamicViewController-Example/JSONModel.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-FIDynamicViewController-Example/ActionSheetPicker_3_0.framework'
   install_framework 'Pods-FIDynamicViewController-Example/IQKeyboardManager.framework'
+  install_framework 'Pods-FIDynamicViewController-Example/JSONModel.framework'
 fi

@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JSONModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-FIDynamicViewController-Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>11887EBA6E46146BA5830033A0809F14</key>
+		<key>92A62B039347702FE2317CA3C0F324EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>702B2F7D00E7E48A09626E3973A9AE6D</key>
+		<key>A78834EA15008FE65431820F82AEB41C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D417B40EA93F5F17ED7645258BF6CB08</key>
+		<key>A9336CC870E6F10FF78F11B81B888ED7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DAF7F7BBD12E415EDEEC4E63B03FF73A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

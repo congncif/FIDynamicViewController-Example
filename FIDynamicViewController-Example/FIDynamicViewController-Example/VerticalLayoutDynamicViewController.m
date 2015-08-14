@@ -22,12 +22,17 @@
 
 @interface VerticalLayoutDynamicViewController ()
 
+
 @end
 
 @implementation VerticalLayoutDynamicViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    CGRect statusBarFrame = [[UIApplication sharedApplication] statusBarFrame];
+    self.defaultInset = UIEdgeInsetsMake(self.navigationController.navigationBar.bounds.size.height + statusBarFrame.size.height , 0, 0, 0);
+    [self invalidDyamicLayoutAnimated:NO];
 }
 
 /**-----------------------------------------------------------------**/
@@ -35,18 +40,28 @@
 - (void)genreateAndConfigureSubViewControllers{
     // Do any additional setup after loading the view.
     
+    Sub1ViewController *sub1VC = [self.storyboard instantiateViewControllerWithIdentifier:@"Sub1ViewController"];
+    sub1VC.view.frame = CGRectMake(0, 0, 0, 200);
+    [self configureHeaderViewController:sub1VC animated:NO];
+    
+    Sub2ViewController *sub2VC = [self.storyboard instantiateViewControllerWithIdentifier:@"Sub2ViewController"];
+    sub2VC.view.frame = CGRectMake(0, 0, 0, 100);
+    [self configureFooterViewController:sub2VC animated:NO];
+    
+    [self configureHeaderViewController:nil animated:NO];
+    
     DropdownSelectionViewController *dropdownVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DropdownSelectionViewController"];
-    [self pushChildViewController:dropdownVC animated:NO];
+    [self pushSubViewController:dropdownVC animated:NO];
     
     DropdownSelectionViewController *dropdownVC2 = [self.storyboard instantiateViewControllerWithIdentifier:@"DropdownSelectionViewController"];
     dropdownVC2.allowEnterQuantity = YES;
-    [self pushChildViewController:dropdownVC2 animated:NO];
+    [self pushSubViewController:dropdownVC2 animated:NO];
     
     RadioSelectionViewController *radioVC = [self.storyboard instantiateViewControllerWithIdentifier:@"RadioSelectionViewController"];
-    [self pushChildViewController:radioVC animated:NO];
+    [self pushSubViewController:radioVC animated:NO];
     
     CheckboxSelectionViewController *multipleSelectionsVC = [self.storyboard instantiateViewControllerWithIdentifier:@"CheckboxSelectionViewController"];
-    [self pushChildViewController:multipleSelectionsVC animated:NO];
+    [self pushSubViewController:multipleSelectionsVC animated:NO];
     
     /**------------------------**
      configure model

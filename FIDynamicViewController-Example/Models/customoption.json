@@ -1,0 +1,513 @@
+{
+  "error" : {
+    "message" : "No Error",
+    "parameters" : null,
+    "code" : 0
+  },
+  "navigations" : [
+    {
+      "key" : "price",
+      "title" : "Price",
+      "items" : [
+        {
+          "count" : 4,
+          "label" : "AU$0.00 - AU$99.99",
+          "value" : "-100"
+        },
+        {
+          "count" : 1,
+          "label" : "AU$100.00 and above",
+          "value" : "100-"
+        }
+      ]
+    },
+    {
+      "key" : "apparel_type",
+      "title" : "Type",
+      "items" : [
+        {
+          "count" : 2,
+          "label" : "Blouses",
+          "value" : "34"
+        }
+      ]
+    }
+  ],
+  "products" : [
+    {
+      "attributes" : null,
+      "priceType" : null,
+      "priceView" : null,
+      "position" : "1",
+      "title" : "TP_Simple_Custom_Spec",
+      "fulldesc" : "Tier price_Simple product_Custom option_Special price<br><br>Tier price of Simple having Custom option and Special price",
+      "special_price" : "80",
+      "image" : "http:\/\/magento19.jmango360.com\/magejam\/image\/index\/store\/1\/id\/1071\/?file=\/1\/9\/191009mbtbanghesp2_1_2.jpg",
+      "options" : [
+        {
+          "inputType" : "field",
+          "title" : "Custom 3",
+          "optionId" : "116",
+          "selections" : [
+            {
+              "position" : 0,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 10,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : null,
+              "name" : null,
+              "maxCharacters" : 0
+            }
+          ],
+          "position" : 0,
+          "required" : true
+        },
+        {
+          "inputType" : "area",
+          "title" : "Custom 4",
+          "optionId" : "117",
+          "selections" : [
+            {
+              "position" : 0,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 20,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : null,
+              "name" : null,
+              "maxCharacters" : 0
+            }
+          ],
+          "position" : 0,
+          "required" : true
+        }
+      ],
+      "tierPrices" : [
+        {
+          "price" : 50,
+          "qty" : 2,
+          "customerGroupId" : "32000"
+        }
+      ],
+      "fromPrice" : 80,
+      "bundleOptions" : null,
+      "_id" : null,
+      "category" : "-1",
+      "stocklevel" : 100,
+      "version" : 0,
+      "type" : "simple",
+      "associatedAttributes" : null,
+      "minimalPrice" : 80,
+      "groupedItems" : null,
+      "special_from_date" : null,
+      "special_to_date" : null,
+      "associatedProducts" : null,
+      "toPrice" : 110,
+      "externalid" : "1071",
+      "gallery" : [
+        "http:\/\/magento19.jmango360.com\/magejam\/image\/index\/store\/1\/id\/1071\/?file=\/1\/9\/191009mbtbanghesp2_1_2.jpg"
+      ],
+      "price" : 100,
+      "categories" : [
+        69,
+        78,
+        -1
+      ],
+      "description" : "Tier price_Simple product_Custom option_Special price"
+    },
+    {
+      "attributes" : null,
+      "priceType" : null,
+      "priceView" : null,
+      "position" : "1",
+      "title" : "Custom options",
+      "fulldesc" : "Custom options<br><br>Custom options",
+      "special_price" : null,
+      "image" : null,
+      "options" : [
+        {
+          "inputType" : "drop_down",
+          "title" : "Percent",
+          "optionId" : "175",
+          "selections" : [
+            {
+              "position" : 2,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 12,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "percent",
+              "valueId" : "163",
+              "name" : "10 percent",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 3,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 14.4,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "percent",
+              "valueId" : "164",
+              "name" : "12 percent",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 4,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 24,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "percent",
+              "valueId" : "165",
+              "name" : "20 percent",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 2,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 0,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "percent",
+              "valueId" : "166",
+              "name" : "30 percent",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 3,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 60,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "percent",
+              "valueId" : "167",
+              "name" : "50 percent",
+              "maxCharacters" : 0
+            }
+          ],
+          "position" : 0,
+          "required" : true
+        },
+        {
+          "inputType" : "drop_down",
+          "title" : "Drop down",
+          "optionId" : "149",
+          "selections" : [
+            {
+              "position" : 2,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 0,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : "132",
+              "name" : "Item 1",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 1,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : -20,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : "133",
+              "name" : "Item 2",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 0,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 10,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : "264",
+              "name" : "item 3",
+              "maxCharacters" : 0
+            }
+          ],
+          "position" : 1,
+          "required" : true
+        },
+        {
+          "inputType" : "field",
+          "title" : "Filed",
+          "optionId" : "147",
+          "selections" : [
+            {
+              "position" : 0,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : -20,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : null,
+              "name" : null,
+              "maxCharacters" : 0
+            }
+          ],
+          "position" : 2,
+          "required" : true
+        },
+        {
+          "inputType" : "multiple",
+          "title" : "Multiple Select",
+          "optionId" : "152",
+          "selections" : [
+            {
+              "position" : 2,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 0,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : "142",
+              "name" : "Option 1",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 3,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 12,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : "143",
+              "name" : "Option 2",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 1,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 15,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : "144",
+              "name" : "Option 3",
+              "maxCharacters" : 0
+            }
+          ],
+          "position" : 3,
+          "required" : true
+        },
+        {
+          "inputType" : "radio",
+          "title" : "Radio button",
+          "optionId" : "151",
+          "selections" : [
+            {
+              "position" : 2,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : -10,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : "139",
+              "name" : "Item 1",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 0,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 15,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : "140",
+              "name" : "Item 2",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 1,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 0,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "percent",
+              "valueId" : "141",
+              "name" : "Item 3",
+              "maxCharacters" : 0
+            }
+          ],
+          "position" : 4,
+          "required" : false
+        },
+        {
+          "inputType" : "time",
+          "title" : "Time",
+          "optionId" : "154",
+          "selections" : [
+            {
+              "position" : 0,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 0,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : null,
+              "name" : null,
+              "maxCharacters" : 0
+            }
+          ],
+          "position" : 5,
+          "required" : false
+        },
+        {
+          "inputType" : "date_time",
+          "title" : "Date & Time",
+          "optionId" : "155",
+          "selections" : [
+            {
+              "position" : 0,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 0,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : null,
+              "name" : null,
+              "maxCharacters" : 0
+            }
+          ],
+          "position" : 6,
+          "required" : false
+        },
+        {
+          "inputType" : "date",
+          "title" : "Date",
+          "optionId" : "156",
+          "selections" : [
+            {
+              "position" : 0,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 0,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : null,
+              "name" : null,
+              "maxCharacters" : 0
+            }
+          ],
+          "position" : 7,
+          "required" : false
+        },
+        {
+          "inputType" : "checkbox",
+          "title" : "Check box",
+          "optionId" : "153",
+          "selections" : [
+            {
+              "position" : 3,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 6,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "percent",
+              "valueId" : "145",
+              "name" : "Option 1",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 1,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 12,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "percent",
+              "valueId" : "146",
+              "name" : "Option 2",
+              "maxCharacters" : 0
+            },
+            {
+              "position" : 2,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 0,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "percent",
+              "valueId" : "147",
+              "name" : "Option 3",
+              "maxCharacters" : 0
+            }
+          ],
+          "position" : 8,
+          "required" : true
+        },
+        {
+          "inputType" : "area",
+          "title" : "Area",
+          "optionId" : "148",
+          "selections" : [
+            {
+              "position" : 0,
+              "fileExtension" : null,
+              "sku" : null,
+              "price" : 0,
+              "imageSizeX" : 0,
+              "imageSizeY" : 0,
+              "priceType" : "fixed",
+              "valueId" : null,
+              "name" : null,
+              "maxCharacters" : 500
+            }
+          ],
+          "position" : 9,
+          "required" : true
+        }
+      ],
+      "tierPrices" : null,
+      "fromPrice" : 100,
+      "bundleOptions" : null,
+      "_id" : null,
+      "category" : "-1",
+      "stocklevel" : 81,
+      "version" : 0,
+      "type" : "simple",
+      "associatedAttributes" : null,
+      "minimalPrice" : 100,
+      "groupedItems" : null,
+      "special_from_date" : null,
+      "special_to_date" : null,
+      "associatedProducts" : null,
+      "toPrice" : 230,
+      "externalid" : "1100",
+      "gallery" : null,
+      "price" : 120,
+      "categories" : [
+        78,
+        -1
+      ],
+      "description" : "Custom options"
+    }
+  ]
+}

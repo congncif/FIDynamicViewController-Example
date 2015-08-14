@@ -7,11 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9304076A1B7D88DA00131D62 /* FIDynamicViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930407691B7D88DA00131D62 /* FIDynamicViewController.framework */; };
+		9304077E1B7D974800131D62 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304077D1B7D974800131D62 /* ProductDetailViewController.m */; };
+		930407811B7D99DF00131D62 /* ProductBottomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407801B7D99DF00131D62 /* ProductBottomViewController.m */; };
+		930407841B7D9A1400131D62 /* ProductGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407831B7D9A1400131D62 /* ProductGalleryViewController.m */; };
+		930407881B7DA23200131D62 /* ProductListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407871B7DA23200131D62 /* ProductListModel.m */; };
+		9304078B1B7DA26A00131D62 /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304078A1B7DA26A00131D62 /* Error.m */; };
+		9304078E1B7DA27800131D62 /* Navigations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304078D1B7DA27800131D62 /* Navigations.m */; };
+		930407951B7DA2BE00131D62 /* GroupedItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407921B7DA2BE00131D62 /* GroupedItems.m */; };
+		930407991B7DA2E800131D62 /* Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407981B7DA2E800131D62 /* Items.m */; };
+		930407A61B7DA62B00131D62 /* AssociatedAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304079D1B7DA62B00131D62 /* AssociatedAttributes.m */; };
+		930407A71B7DA62B00131D62 /* AssociatedProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304079F1B7DA62B00131D62 /* AssociatedProducts.m */; };
+		930407A81B7DA62B00131D62 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407A11B7DA62B00131D62 /* Map.m */; };
+		930407AA1B7DA62B00131D62 /* ValueList.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407A51B7DA62B00131D62 /* ValueList.m */; };
+		930407B21B7DA64B00131D62 /* Selections.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407AE1B7DA64B00131D62 /* Selections.m */; };
+		930407B81B7DA72B00131D62 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407B51B7DA72B00131D62 /* Products.m */; };
+		930407B91B7DA72B00131D62 /* TierPrices.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407B71B7DA72B00131D62 /* TierPrices.m */; };
+		930407BC1B7DA74000131D62 /* Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407BB1B7DA74000131D62 /* Options.m */; };
+		930407C51B7DA9E700131D62 /* ProductGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407C41B7DA9E700131D62 /* ProductGroupViewController.m */; };
+		930407C71B7DAD5600131D62 /* group.json in Resources */ = {isa = PBXBuildFile; fileRef = 930407C61B7DAD5600131D62 /* group.json */; };
+		930407CA1B7DAE4500131D62 /* ProductGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407C91B7DAE4500131D62 /* ProductGroupTableViewCell.m */; };
+		930407CC1B7DC57A00131D62 /* customoption.json in Resources */ = {isa = PBXBuildFile; fileRef = 930407CB1B7DC57A00131D62 /* customoption.json */; };
+		930407CF1B7DC6EC00131D62 /* ProductPresenterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407CE1B7DC6EC00131D62 /* ProductPresenterModel.m */; };
+		930407D11B7DC8D600131D62 /* Configurable.json in Resources */ = {isa = PBXBuildFile; fileRef = 930407D01B7DC8D600131D62 /* Configurable.json */; };
+		930407D41B7DCC2700131D62 /* TextAreaInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407D31B7DCC2700131D62 /* TextAreaInputViewController.m */; };
+		930407D71B7DCDD100131D62 /* TextFieldInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407D61B7DCDD100131D62 /* TextFieldInputViewController.m */; };
+		930407DA1B7DCF2000131D62 /* DateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407D91B7DCF2000131D62 /* DateSelectionViewController.m */; };
+		930407DD1B7DCF2E00131D62 /* DateTimeSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407DC1B7DCF2E00131D62 /* DateTimeSelectionViewController.m */; };
 		938E56FF1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938E56FE1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m */; };
 		93AFB13D1B7C39BD00EFE6B5 /* SubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB13C1B7C39BD00EFE6B5 /* SubTableViewController.m */; };
 		93AFB1401B7C3A3D00EFE6B5 /* SubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB13F1B7C3A3D00EFE6B5 /* SubTableViewCell.m */; };
 		93AFB1431B7C3DA100EFE6B5 /* Sub4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB1421B7C3DA100EFE6B5 /* Sub4ViewController.m */; };
-		93AFB1891B7C714900EFE6B5 /* FIDynamicViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFB1881B7C714900EFE6B5 /* FIDynamicViewController.framework */; };
 		93AFB1911B7C72AD00EFE6B5 /* DropdownSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB1901B7C72AD00EFE6B5 /* DropdownSelectionViewController.m */; };
 		93AFB1951B7C732D00EFE6B5 /* FIBorderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB1941B7C732D00EFE6B5 /* FIBorderTextField.m */; };
 		93AFB1971B7C747200EFE6B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AFB1961B7C747200EFE6B5 /* Images.xcassets */; };
@@ -46,6 +72,56 @@
 /* Begin PBXFileReference section */
 		4D523C295340CF7079F2A8BA /* Pods_FIDynamicViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIDynamicViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		591B38A39C12C8AAE6AFFDF2 /* Pods-FIDynamicViewController-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIDynamicViewController-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIDynamicViewController-Example/Pods-FIDynamicViewController-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		930407691B7D88DA00131D62 /* FIDynamicViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FIDynamicViewController.framework; path = ../../../../../Desktop/FIDynamicViewController.framework; sourceTree = "<group>"; };
+		9304077C1B7D974800131D62 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		9304077D1B7D974800131D62 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		9304077F1B7D99DF00131D62 /* ProductBottomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductBottomViewController.h; sourceTree = "<group>"; };
+		930407801B7D99DF00131D62 /* ProductBottomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductBottomViewController.m; sourceTree = "<group>"; };
+		930407821B7D9A1400131D62 /* ProductGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductGalleryViewController.h; sourceTree = "<group>"; };
+		930407831B7D9A1400131D62 /* ProductGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductGalleryViewController.m; sourceTree = "<group>"; };
+		930407861B7DA23200131D62 /* ProductListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListModel.h; sourceTree = "<group>"; };
+		930407871B7DA23200131D62 /* ProductListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListModel.m; sourceTree = "<group>"; };
+		930407891B7DA26A00131D62 /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
+		9304078A1B7DA26A00131D62 /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
+		9304078C1B7DA27800131D62 /* Navigations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Navigations.h; sourceTree = "<group>"; };
+		9304078D1B7DA27800131D62 /* Navigations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Navigations.m; sourceTree = "<group>"; };
+		930407911B7DA2BE00131D62 /* GroupedItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupedItems.h; sourceTree = "<group>"; };
+		930407921B7DA2BE00131D62 /* GroupedItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupedItems.m; sourceTree = "<group>"; };
+		930407971B7DA2E800131D62 /* Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Items.h; sourceTree = "<group>"; };
+		930407981B7DA2E800131D62 /* Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Items.m; sourceTree = "<group>"; };
+		9304079C1B7DA62B00131D62 /* AssociatedAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociatedAttributes.h; sourceTree = "<group>"; };
+		9304079D1B7DA62B00131D62 /* AssociatedAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociatedAttributes.m; sourceTree = "<group>"; };
+		9304079E1B7DA62B00131D62 /* AssociatedProducts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociatedProducts.h; sourceTree = "<group>"; };
+		9304079F1B7DA62B00131D62 /* AssociatedProducts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociatedProducts.m; sourceTree = "<group>"; };
+		930407A01B7DA62B00131D62 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		930407A11B7DA62B00131D62 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		930407A41B7DA62B00131D62 /* ValueList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueList.h; sourceTree = "<group>"; };
+		930407A51B7DA62B00131D62 /* ValueList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueList.m; sourceTree = "<group>"; };
+		930407AD1B7DA64B00131D62 /* Selections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Selections.h; sourceTree = "<group>"; };
+		930407AE1B7DA64B00131D62 /* Selections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selections.m; sourceTree = "<group>"; };
+		930407B41B7DA72B00131D62 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		930407B51B7DA72B00131D62 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		930407B61B7DA72B00131D62 /* TierPrices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TierPrices.h; sourceTree = "<group>"; };
+		930407B71B7DA72B00131D62 /* TierPrices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TierPrices.m; sourceTree = "<group>"; };
+		930407BA1B7DA74000131D62 /* Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Options.h; sourceTree = "<group>"; };
+		930407BB1B7DA74000131D62 /* Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Options.m; sourceTree = "<group>"; };
+		930407C31B7DA9E700131D62 /* ProductGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductGroupViewController.h; sourceTree = "<group>"; };
+		930407C41B7DA9E700131D62 /* ProductGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductGroupViewController.m; sourceTree = "<group>"; };
+		930407C61B7DAD5600131D62 /* group.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = group.json; sourceTree = "<group>"; };
+		930407C81B7DAE4500131D62 /* ProductGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductGroupTableViewCell.h; sourceTree = "<group>"; };
+		930407C91B7DAE4500131D62 /* ProductGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductGroupTableViewCell.m; sourceTree = "<group>"; };
+		930407CB1B7DC57A00131D62 /* customoption.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = customoption.json; sourceTree = "<group>"; };
+		930407CD1B7DC6EC00131D62 /* ProductPresenterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductPresenterModel.h; sourceTree = "<group>"; };
+		930407CE1B7DC6EC00131D62 /* ProductPresenterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductPresenterModel.m; sourceTree = "<group>"; };
+		930407D01B7DC8D600131D62 /* Configurable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Configurable.json; sourceTree = "<group>"; };
+		930407D21B7DCC2700131D62 /* TextAreaInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAreaInputViewController.h; sourceTree = "<group>"; };
+		930407D31B7DCC2700131D62 /* TextAreaInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAreaInputViewController.m; sourceTree = "<group>"; };
+		930407D51B7DCDD100131D62 /* TextFieldInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldInputViewController.h; sourceTree = "<group>"; };
+		930407D61B7DCDD100131D62 /* TextFieldInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldInputViewController.m; sourceTree = "<group>"; };
+		930407D81B7DCF2000131D62 /* DateSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateSelectionViewController.h; sourceTree = "<group>"; };
+		930407D91B7DCF2000131D62 /* DateSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateSelectionViewController.m; sourceTree = "<group>"; };
+		930407DB1B7DCF2E00131D62 /* DateTimeSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeSelectionViewController.h; sourceTree = "<group>"; };
+		930407DC1B7DCF2E00131D62 /* DateTimeSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTimeSelectionViewController.m; sourceTree = "<group>"; };
 		938E56FD1B7B469700F8E747 /* VerticalLayoutDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalLayoutDynamicViewController.h; sourceTree = "<group>"; };
 		938E56FE1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalLayoutDynamicViewController.m; sourceTree = "<group>"; };
 		93AFB13B1B7C39BD00EFE6B5 /* SubTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTableViewController.h; sourceTree = "<group>"; };
@@ -54,7 +130,6 @@
 		93AFB13F1B7C3A3D00EFE6B5 /* SubTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTableViewCell.m; sourceTree = "<group>"; };
 		93AFB1411B7C3DA100EFE6B5 /* Sub4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sub4ViewController.h; sourceTree = "<group>"; };
 		93AFB1421B7C3DA100EFE6B5 /* Sub4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sub4ViewController.m; sourceTree = "<group>"; };
-		93AFB1881B7C714900EFE6B5 /* FIDynamicViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIDynamicViewController.framework; sourceTree = "<group>"; };
 		93AFB18F1B7C72AD00EFE6B5 /* DropdownSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownSelectionViewController.h; sourceTree = "<group>"; };
 		93AFB1901B7C72AD00EFE6B5 /* DropdownSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownSelectionViewController.m; sourceTree = "<group>"; };
 		93AFB1931B7C732D00EFE6B5 /* FIBorderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIBorderTextField.h; sourceTree = "<group>"; };
@@ -98,7 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93AFB1891B7C714900EFE6B5 /* FIDynamicViewController.framework in Frameworks */,
+				9304076A1B7D88DA00131D62 /* FIDynamicViewController.framework in Frameworks */,
 				C9C4B7E4A448423F36600D7A /* Pods_FIDynamicViewController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,12 +197,90 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9304077B1B7D972700131D62 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				930407CD1B7DC6EC00131D62 /* ProductPresenterModel.h */,
+				930407CE1B7DC6EC00131D62 /* ProductPresenterModel.m */,
+				9304077C1B7D974800131D62 /* ProductDetailViewController.h */,
+				9304077D1B7D974800131D62 /* ProductDetailViewController.m */,
+				9304077F1B7D99DF00131D62 /* ProductBottomViewController.h */,
+				930407801B7D99DF00131D62 /* ProductBottomViewController.m */,
+				930407821B7D9A1400131D62 /* ProductGalleryViewController.h */,
+				930407831B7D9A1400131D62 /* ProductGalleryViewController.m */,
+				930407C31B7DA9E700131D62 /* ProductGroupViewController.h */,
+				930407C41B7DA9E700131D62 /* ProductGroupViewController.m */,
+				930407C81B7DAE4500131D62 /* ProductGroupTableViewCell.h */,
+				930407C91B7DAE4500131D62 /* ProductGroupTableViewCell.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		930407851B7DA22700131D62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				930407D01B7DC8D600131D62 /* Configurable.json */,
+				930407CB1B7DC57A00131D62 /* customoption.json */,
+				930407C61B7DAD5600131D62 /* group.json */,
+				9304079A1B7DA61700131D62 /* Configurable */,
+				9304079B1B7DA61700131D62 /* Custom */,
+				930407901B7DA2B000131D62 /* Group */,
+				930407861B7DA23200131D62 /* ProductListModel.h */,
+				930407871B7DA23200131D62 /* ProductListModel.m */,
+				930407891B7DA26A00131D62 /* Error.h */,
+				9304078A1B7DA26A00131D62 /* Error.m */,
+				9304078C1B7DA27800131D62 /* Navigations.h */,
+				9304078D1B7DA27800131D62 /* Navigations.m */,
+				930407971B7DA2E800131D62 /* Items.h */,
+				930407981B7DA2E800131D62 /* Items.m */,
+				930407B41B7DA72B00131D62 /* Products.h */,
+				930407B51B7DA72B00131D62 /* Products.m */,
+				930407B61B7DA72B00131D62 /* TierPrices.h */,
+				930407B71B7DA72B00131D62 /* TierPrices.m */,
+				930407BA1B7DA74000131D62 /* Options.h */,
+				930407BB1B7DA74000131D62 /* Options.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		930407901B7DA2B000131D62 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				930407911B7DA2BE00131D62 /* GroupedItems.h */,
+				930407921B7DA2BE00131D62 /* GroupedItems.m */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		9304079A1B7DA61700131D62 /* Configurable */ = {
+			isa = PBXGroup;
+			children = (
+				9304079C1B7DA62B00131D62 /* AssociatedAttributes.h */,
+				9304079D1B7DA62B00131D62 /* AssociatedAttributes.m */,
+				9304079E1B7DA62B00131D62 /* AssociatedProducts.h */,
+				9304079F1B7DA62B00131D62 /* AssociatedProducts.m */,
+				930407A01B7DA62B00131D62 /* Map.h */,
+				930407A11B7DA62B00131D62 /* Map.m */,
+				930407A41B7DA62B00131D62 /* ValueList.h */,
+				930407A51B7DA62B00131D62 /* ValueList.m */,
+			);
+			path = Configurable;
+			sourceTree = "<group>";
+		};
+		9304079B1B7DA61700131D62 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				930407AD1B7DA64B00131D62 /* Selections.h */,
+				930407AE1B7DA64B00131D62 /* Selections.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		938E56FC1B7B466700F8E747 /* VerticalLayoutDynamicViewController */ = {
 			isa = PBXGroup;
 			children = (
 				938E56FD1B7B469700F8E747 /* VerticalLayoutDynamicViewController.h */,
 				938E56FE1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m */,
-				93AFB1961B7C747200EFE6B5 /* Images.xcassets */,
 			);
 			name = VerticalLayoutDynamicViewController;
 			sourceTree = "<group>";
@@ -135,7 +288,7 @@
 		93AFB1871B7C713D00EFE6B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93AFB1881B7C714900EFE6B5 /* FIDynamicViewController.framework */,
+				930407691B7D88DA00131D62 /* FIDynamicViewController.framework */,
 				4D523C295340CF7079F2A8BA /* Pods_FIDynamicViewController_Example.framework */,
 			);
 			path = Frameworks;
@@ -154,6 +307,14 @@
 				93AFB1A01B7C805B00EFE6B5 /* CheckboxSelectionViewController.m */,
 				93AFB1A21B7C807000EFE6B5 /* CheckboxSelectionTableViewCell.h */,
 				93AFB1A31B7C807000EFE6B5 /* CheckboxSelectionTableViewCell.m */,
+				930407D21B7DCC2700131D62 /* TextAreaInputViewController.h */,
+				930407D31B7DCC2700131D62 /* TextAreaInputViewController.m */,
+				930407D51B7DCDD100131D62 /* TextFieldInputViewController.h */,
+				930407D61B7DCDD100131D62 /* TextFieldInputViewController.m */,
+				930407D81B7DCF2000131D62 /* DateSelectionViewController.h */,
+				930407D91B7DCF2000131D62 /* DateSelectionViewController.m */,
+				930407DB1B7DCF2E00131D62 /* DateTimeSelectionViewController.h */,
+				930407DC1B7DCF2E00131D62 /* DateTimeSelectionViewController.m */,
 			);
 			path = Selection;
 			sourceTree = "<group>";
@@ -196,6 +357,8 @@
 				93DB57511B7A0D320044E42C /* FIDynamicViewController-Example */,
 				93AFB1921B7C732600EFE6B5 /* Custom */,
 				93AFB18E1B7C72A200EFE6B5 /* Selection */,
+				9304077B1B7D972700131D62 /* Demo */,
+				930407851B7DA22700131D62 /* Models */,
 				93DB576B1B7A0D320044E42C /* FIDynamicViewController-ExampleTests */,
 				93DB57501B7A0D320044E42C /* Products */,
 				93AFB1871B7C713D00EFE6B5 /* Frameworks */,
@@ -231,6 +394,7 @@
 		93DB57521B7A0D320044E42C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				93AFB1961B7C747200EFE6B5 /* Images.xcassets */,
 				93DB57531B7A0D320044E42C /* Info.plist */,
 				93DB57541B7A0D320044E42C /* main.m */,
 			);
@@ -337,9 +501,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930407D11B7DC8D600131D62 /* Configurable.json in Resources */,
+				930407CC1B7DC57A00131D62 /* customoption.json in Resources */,
 				93AFB1971B7C747200EFE6B5 /* Images.xcassets in Resources */,
 				93DB575E1B7A0D320044E42C /* Main.storyboard in Resources */,
 				93DB57631B7A0D320044E42C /* LaunchScreen.xib in Resources */,
+				930407C71B7DAD5600131D62 /* group.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,24 +572,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930407D71B7DCDD100131D62 /* TextFieldInputViewController.m in Sources */,
+				930407B81B7DA72B00131D62 /* Products.m in Sources */,
 				93AFB1A41B7C807000EFE6B5 /* CheckboxSelectionTableViewCell.m in Sources */,
 				93AFB1A11B7C805B00EFE6B5 /* CheckboxSelectionViewController.m in Sources */,
+				930407951B7DA2BE00131D62 /* GroupedItems.m in Sources */,
 				93AFB19E1B7C7D0A00EFE6B5 /* RadioSelectionTableViewCell.m in Sources */,
 				93DB57821B7A0FF10044E42C /* Sub2ViewController.m in Sources */,
 				93DB577F1B7A0F890044E42C /* DynamicViewController.m in Sources */,
+				930407A81B7DA62B00131D62 /* Map.m in Sources */,
 				93AFB1951B7C732D00EFE6B5 /* FIBorderTextField.m in Sources */,
 				93DB57881B7A103B0044E42C /* DynamicPresenter.m in Sources */,
+				930407DA1B7DCF2000131D62 /* DateSelectionViewController.m in Sources */,
+				9304077E1B7D974800131D62 /* ProductDetailViewController.m in Sources */,
 				938E56FF1B7B469700F8E747 /* VerticalLayoutDynamicViewController.m in Sources */,
+				930407B21B7DA64B00131D62 /* Selections.m in Sources */,
+				930407BC1B7DA74000131D62 /* Options.m in Sources */,
+				9304078B1B7DA26A00131D62 /* Error.m in Sources */,
+				930407CA1B7DAE4500131D62 /* ProductGroupTableViewCell.m in Sources */,
+				930407A71B7DA62B00131D62 /* AssociatedProducts.m in Sources */,
+				930407991B7DA2E800131D62 /* Items.m in Sources */,
 				93AFB13D1B7C39BD00EFE6B5 /* SubTableViewController.m in Sources */,
+				9304078E1B7DA27800131D62 /* Navigations.m in Sources */,
 				93AFB19B1B7C7B3600EFE6B5 /* RadioSelectionViewController.m in Sources */,
+				930407A61B7DA62B00131D62 /* AssociatedAttributes.m in Sources */,
+				930407D41B7DCC2700131D62 /* TextAreaInputViewController.m in Sources */,
 				93AFB1401B7C3A3D00EFE6B5 /* SubTableViewCell.m in Sources */,
 				93DB575B1B7A0D320044E42C /* ViewController.m in Sources */,
 				93DB577C1B7A0E990044E42C /* Sub1ViewController.m in Sources */,
+				930407CF1B7DC6EC00131D62 /* ProductPresenterModel.m in Sources */,
+				930407841B7D9A1400131D62 /* ProductGalleryViewController.m in Sources */,
+				930407881B7DA23200131D62 /* ProductListModel.m in Sources */,
 				93AFB1431B7C3DA100EFE6B5 /* Sub4ViewController.m in Sources */,
 				93AFB1911B7C72AD00EFE6B5 /* DropdownSelectionViewController.m in Sources */,
+				930407B91B7DA72B00131D62 /* TierPrices.m in Sources */,
 				93DB57581B7A0D320044E42C /* AppDelegate.m in Sources */,
+				930407811B7D99DF00131D62 /* ProductBottomViewController.m in Sources */,
 				93DB57551B7A0D320044E42C /* main.m in Sources */,
 				93DB57851B7A100A0044E42C /* Sub3ViewController.m in Sources */,
+				930407AA1B7DA62B00131D62 /* ValueList.m in Sources */,
+				930407DD1B7DCF2E00131D62 /* DateTimeSelectionViewController.m in Sources */,
+				930407C51B7DA9E700131D62 /* ProductGroupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

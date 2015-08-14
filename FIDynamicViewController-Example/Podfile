@@ -6,6 +6,7 @@ target 'FIDynamicViewController-Example' do
 
 pod 'ActionSheetPicker-3.0', '~> 1.5.1'
 pod 'IQKeyboardManager', '~> 3.2'
+pod 'JSONModel', '~> 1.1'
 
 end
 

@@ -1,0 +1,238 @@
+{
+  "error" : {
+    "message" : "No Error",
+    "parameters" : null,
+    "code" : 0
+  },
+  "navigations" : null,
+  "products" : [
+    {
+      "attributes" : null,
+      "priceType" : null,
+      "priceView" : null,
+      "position" : "1",
+      "title" : "Milli Cardigan",
+      "fulldesc" : "Polished femininity in this cover-up of choice.<br><br>Crew cardigan. Mother of pearl front button closure. Ribbed cuff and hem. 100% cotton. Hand wash.",
+      "special_price" : null,
+      "image" : "http:\/\/magento19.jmango360.com\/magejam\/image\/index\/store\/1\/id\/835\/?file=\/2\/4\/247659_531099996906340_1536776188_n.jpg",
+      "options" : null,
+      "tierPrices" : [
+        {
+          "price" : 200,
+          "qty" : 3,
+          "customerGroupId" : "32000"
+        }
+      ],
+      "fromPrice" : 240,
+      "bundleOptions" : null,
+      "_id" : null,
+      "category" : "-1",
+      "stocklevel" : -1,
+      "version" : 0,
+      "type" : "configurable",
+      "associatedAttributes" : [
+        {
+          "id" : 180,
+          "name" : "Size",
+          "valueList" : [
+            {
+              "id" : 81,
+              "name" : "XS",
+              "price" : 0
+            },
+            {
+              "id" : 80,
+              "name" : "S",
+              "price" : 0
+            },
+            {
+              "id" : 79,
+              "name" : "M",
+              "price" : 0
+            },
+            {
+              "id" : 78,
+              "name" : "L",
+              "price" : 0
+            },
+            {
+              "id" : 77,
+              "name" : "XL",
+              "price" : 0
+            }
+          ],
+          "values" : [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "minimalPrice" : 200,
+      "groupedItems" : null,
+      "special_from_date" : null,
+      "special_to_date" : null,
+      "associatedProducts" : [
+        {
+          "quantity" : 25,
+          "id" : 731,
+          "map" : {
+            "Size" : "L"
+          },
+          "saleable" : true,
+          "instock" : true
+        },
+        {
+          "quantity" : 30,
+          "id" : 730,
+          "map" : {
+            "Size" : "M"
+          },
+          "saleable" : true,
+          "instock" : true
+        },
+        {
+          "quantity" : 12,
+          "id" : 1346,
+          "map" : {
+            "Size" : "XS"
+          },
+          "saleable" : true,
+          "instock" : true
+        },
+        {
+          "quantity" : 12,
+          "id" : 1345,
+          "map" : {
+            "Size" : "XL"
+          },
+          "saleable" : true,
+          "instock" : true
+        },
+        {
+          "quantity" : 25,
+          "id" : 729,
+          "map" : {
+            "Size" : "S"
+          },
+          "saleable" : true,
+          "instock" : true
+        }
+      ],
+      "toPrice" : 240,
+      "externalid" : "835",
+      "gallery" : [
+        "http:\/\/magento19.jmango360.com\/magejam\/image\/index\/store\/1\/id\/835\/?file=\/p\/w\/pwt004a_4.jpg",
+        "http:\/\/magento19.jmango360.com\/magejam\/image\/index\/store\/1\/id\/835\/?file=\/p\/w\/pwt004b_4.jpg",
+        "http:\/\/magento19.jmango360.com\/magejam\/image\/index\/store\/1\/id\/835\/?file=\/p\/w\/pwt004t_6.jpg",
+        "http:\/\/magento19.jmango360.com\/magejam\/image\/index\/store\/1\/id\/835\/?file=\/2\/4\/247659_531099996906340_1536776188_n.jpg"
+      ],
+      "price" : 240,
+      "categories" : [
+        4,
+        14,
+        60,
+        67,
+        90,
+        -1
+      ],
+      "description" : "Polished femininity in this cover-up of choice."
+    },
+    {
+      "attributes" : null,
+      "priceType" : null,
+      "priceView" : null,
+      "position" : "1",
+      "title" : "Prima Pump",
+      "fulldesc" : "test out stock confirugrable<br><br>Polished leather. Tonal bow and seam details on toe. 3.5\" heel. Leather insole and lining. Imported.",
+      "special_price" : "300",
+      "image" : "http:\/\/magento19.jmango360.com\/magejam\/image\/index\/store\/1\/id\/871\/?file=\/s\/h\/shw001a_5.jpg",
+      "options" : null,
+      "tierPrices" : null,
+      "fromPrice" : 300,
+      "bundleOptions" : null,
+      "_id" : null,
+      "category" : "-1",
+      "stocklevel" : -1,
+      "version" : 0,
+      "type" : "configurable",
+      "associatedAttributes" : [
+        {
+          "id" : 186,
+          "name" : "Shoe size",
+          "valueList" : [
+            {
+              "id" : 102,
+              "name" : "6",
+              "price" : 75
+            },
+            {
+              "id" : 100,
+              "name" : "8",
+              "price" : 30
+            },
+            {
+              "id" : 99,
+              "name" : "9",
+              "price" : 0
+            }
+          ],
+          "values" : [
+            "6",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "minimalPrice" : 300,
+      "groupedItems" : null,
+      "special_from_date" : null,
+      "special_to_date" : null,
+      "associatedProducts" : [
+        {
+          "quantity" : 100,
+          "id" : 786,
+          "map" : {
+            "Shoe size" : "9"
+          },
+          "saleable" : true,
+          "instock" : true
+        },
+        {
+          "quantity" : 10,
+          "id" : 785,
+          "map" : {
+            "Shoe size" : "8"
+          },
+          "saleable" : true,
+          "instock" : true
+        },
+        {
+          "quantity" : 80,
+          "id" : 783,
+          "map" : {
+            "Shoe size" : "6"
+          },
+          "saleable" : true,
+          "instock" : true
+        }
+      ],
+      "toPrice" : 375,
+      "externalid" : "871",
+      "gallery" : [
+        "http:\/\/magento19.jmango360.com\/magejam\/image\/index\/store\/1\/id\/871\/?file=\/s\/h\/shw001a_5.jpg",
+        "http:\/\/magento19.jmango360.com\/magejam\/image\/index\/store\/1\/id\/871\/?file=\/s\/h\/shw001b_5.jpg"
+      ],
+      "price" : 375,
+      "categories" : [
+        62,
+        90,
+        121,
+        -1
+      ],
+      "description" : "test out stock confirugrable"
+    }
+  ]
+}

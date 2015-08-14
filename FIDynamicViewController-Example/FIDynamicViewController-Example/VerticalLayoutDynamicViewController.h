@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-#import <FIDynamicViewController/FIBaseVerticalLayoutDynamicViewController.h>
+#import <FIDynamicViewController/FIDynamicViewController.h>
 
 @interface VerticalLayoutDynamicViewController : FIBaseVerticalLayoutDynamicViewController
 
