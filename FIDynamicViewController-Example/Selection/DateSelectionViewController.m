@@ -41,6 +41,13 @@
     if ([self.identifier isKindOfClass:[Options class]]){
         Options *option = (Options *)self.identifier;
         self.lbTitle.text = option.title;
+        if ([option.inputType isEqualToString:@"date"]) {
+
+            self.txtField.placeholder = @"DD / MM /YYYY";
+        }else if ([option.inputType isEqualToString:@"time"]){
+
+            self.txtField.placeholder = @"00 : 00 AM";
+        }
         
         self.txtField.action = ^(FIBorderTextField *field){
             
