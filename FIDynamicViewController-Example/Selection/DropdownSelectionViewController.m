@@ -75,6 +75,11 @@ static CGFloat WIDTH_QUANTITY_VIEW = 60.0f;
     // Dispose of any resources that can be recreated.
 }
 
+- (BOOL)receiveActionWithInfo:(id)actionInfo{
+    NSLog(@"PASSED: %@", NSStringFromClass([self class]));
+//    return NO;
+    return [super receiveActionWithInfo:actionInfo];
+}
 
 
 @end

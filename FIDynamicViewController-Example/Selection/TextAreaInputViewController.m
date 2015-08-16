@@ -42,4 +42,10 @@
     }
 }
 
+- (BOOL)receiveActionWithInfo:(id)actionInfo{
+    NSLog(@"PASSED: %@", NSStringFromClass([self class]));
+    
+    return [super receiveActionWithInfo:actionInfo];
+}
+
 @end

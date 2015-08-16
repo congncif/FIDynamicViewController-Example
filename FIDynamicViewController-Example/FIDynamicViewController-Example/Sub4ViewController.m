@@ -25,8 +25,8 @@
 }
 
 - (IBAction)sendActionButtonTapped:(id)sender{
-    if ([self.delegate respondsToSelector:@selector(subViewController:sentActionWithInfo:)]) {
-        [self.delegate subViewController:self sentActionWithInfo:@"Lam gi thi lam"];
+    if ([self.containerController respondsToSelector:@selector(subViewController:sentActionWithInfo:)]) {
+        [self.containerController subViewController:self sentActionWithInfo:@"Lam gi thi lam"];
     }
 }
 
